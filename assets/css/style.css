@@ -49,6 +49,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  box-shadow: #363636;
 }
 header nav {
   display: flex;
@@ -103,9 +104,41 @@ header nav ul li a {
   text-decoration: none;
   font-weight: 600;
   color: #0360A3;
+  transition-duration: 0.3s;
 }
 header nav ul li a:hover {
-  color: #1a3d58;
+  color: #CEAE4A;
+}
+header nav .icons {
+  display: none;
+}
+@media (min-width: 768px) {
+  header nav .icons {
+    display: flex;
+    gap: 13px;
+  }
+}
+header nav .icons a {
+  color: #0360A3;
+  transition-duration: 0.3s;
+}
+header nav .icons a:hover {
+  color: #CEAE4A;
+}
+header nav .mobile-nav-icon {
+  display: flex;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0360A3;
+  transition-duration: 0.3s;
+}
+header nav .mobile-nav-icon:hover {
+  color: #CEAE4A;
+}
+@media (min-width: 768px) {
+  header nav .mobile-nav-icon {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
