@@ -1,0 +1,28 @@
+header {
+    background-color: white;
+    height: 60px;
+    @include flexbox();
+    nav {
+    @include flexbox(space-between);
+    @include container ;
+        ul {
+            list-style: none;
+            display: none;
+            @include media-up(md) {
+                @include flexbox();
+                gap: 20px;
+            }
+            
+            li {
+                a {
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: $mainColor;
+                    &:hover {
+                        color: $linkColor;
+                    }
+                }
+            }
+        }
+}
+}
