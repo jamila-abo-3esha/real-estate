@@ -29,3 +29,11 @@
     align-items: $align-items;
     flex-direction: $flex-direction;
 }
+
+@mixin bg-img($url) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: $url ;
+    background-position: center;
+    background-color: $mainColor;
+}

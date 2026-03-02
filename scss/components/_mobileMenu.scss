@@ -7,7 +7,8 @@ aside {
     border-top-left-radius: 5px;
     right: -250px;
     transition-duration: 0.3s;
-    
+    z-index: 10000;
+    box-shadow: 2px 2px 10px #9b9a9a;
     .mobile-menu {
         padding: 20px;
         .logo {
@@ -21,6 +22,7 @@ aside {
                 a {
                     color: $mainColor;
                     transition-duration: 0.3s;
+                    font-weight: bold;
                 }
                 &:hover {
                     a {
