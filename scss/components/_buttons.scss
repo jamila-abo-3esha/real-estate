@@ -1,0 +1,23 @@
+%btn {
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px 15px;
+    transition-duration: 0.3s
+}
+
+.btn-primary {
+    @extend %btn ;
+    background-color: $mainColor;
+    &:hover {
+        background-color: darken($mainColor , 10%)
+    }
+}
+
+.btn-danger {
+    @extend %btn ;
+    background-color: $secondColor;
+    &:hover {
+        background-color: darken($secondColor , 10%)
+    }
+}

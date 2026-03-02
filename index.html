@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Estate</title>
+    <title>Aws Real Estate</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/logo1.png">
 </head>
 <body>
     <header>
         <nav class="">
             <div class="logo">
-                <a href="/"><img width="90" src="assets/images/logo.png" alt="logo"></a>
+                <a href="/"><img width="90" src="assets/images/logo1.png" alt="logo"></a>
             </div>
             <ul>
                     <li><a href="">الرئيسية</a></li>
@@ -26,8 +27,38 @@
                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <a href="" class="mobile-nav-icon"><i class="fa-solid fa-bars-staggered"></i></a>
+            <div class="mobile-nav-icon">
+                <i class="fa-solid fa-bars-staggered" id="mobil-nav-icon"></i>
+            </div>
         </nav>
     </header>
+
+    <aside id="aside">
+        <div class="mobile-menu">
+            <img src="assets/images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="">الرئيسية</a></li>
+                <li><a href="">العقارات</a></li>
+                <li><a href="">المدونة</a></li>
+                <li><a href="">حول الشركة</a></li>
+                <li><a href="">اتصل بنا</a></li>
+            </ul>
+            <form action="">
+                <input type="text">
+            </form>
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="cta">
+                <a href="#" class="btn-primary">اتصل بنا</a>
+                <a href="#" class="btn-danger">المزيد</a>
+            </div>
+        </div>
+    </aside>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
