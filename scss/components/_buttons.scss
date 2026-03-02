@@ -1,9 +1,9 @@
 %btn {
     color: white !important;
-    border-radius: 5px;
+    border-radius: 5px ;
     cursor: pointer;
-    padding: 3px 15px;
-    transition-duration: 0.3s
+    padding: 3px 15px ;
+    transition-duration: 0.3s 
 }
 
 .btn-primary {
@@ -18,6 +18,6 @@
     @extend %btn ;
     background-color: $secondColor;
     &:hover {
-        background-color: darken($secondColor , 10%)
+        background-color: darken($secondColor , 10%);
     }
 }

@@ -8,6 +8,7 @@
 body {
   font-family: "cairo";
   background-color: #f5f1f1;
+  height: 2500px;
 }
 
 a {
@@ -352,6 +353,81 @@ aside .mobile-menu .cta {
   right: 15px;
   color: #0360A3;
   margin-left: 10px;
+}
+
+.about {
+  padding: 70px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/aboutbg.jpg");
+  background-position: center;
+  background-color: #0360A3;
+}
+@media (min-width: 768px) {
+  .about .inner-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .about .inner-about .right-section {
+    width: 50%;
+  }
+}
+.about .inner-about .right-section ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about .inner-about .right-section ul li {
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #bab9b9;
+  width: fit-content;
+  padding-bottom: 5px;
+  font-size: 13px;
+  margin-right: 25px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .about .inner-about .right-section ul li {
+    font-size: 16px;
+  }
+}
+.about .inner-about .right-section ul li::before {
+  position: absolute;
+  content: "\f058";
+  color: #CEAE4A;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about .inner-about .right-section h2 {
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .about .inner-about .right-section p {
+    width: 85%;
+  }
+}
+.about .inner-about .right-section p {
+  line-height: 2;
+  font-size: 17px;
+}
+.about .inner-about .left-section {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .about .inner-about .left-section {
+    width: 50%;
+  }
+}
+.about .inner-about .left-section img {
+  max-width: 100%;
+  border-radius: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */
