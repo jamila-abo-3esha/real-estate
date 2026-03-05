@@ -88,8 +88,6 @@
 
 
 
-
-
 .about {
     padding: 70px;
     position: relative;
@@ -211,6 +209,36 @@
             .review {
                 text-align: center;
                 font-size: 15px;
+            }
+        }
+    }
+}
+
+
+.partners {
+    display: none;
+    @include media-up(lg) {
+        display: block;
+    }
+    margin-bottom: 50px ;
+    .logos {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+        gap: 30px;
+        .image {
+            height: 160px;
+            width: 270px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                cursor: pointer;
+                transition: 0.4s;
+                filter: grayscale(0.9);
+                &:hover {
+                    filter: grayscale(0);
+                }
             }
         }
     }
