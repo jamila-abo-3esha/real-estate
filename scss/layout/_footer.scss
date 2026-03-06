@@ -1,0 +1,91 @@
+footer {
+
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+        background-color: white;
+        border-top: 3px solid $mainColor;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+        border-radius: 0 0 40px 40px;
+        .inner-contact {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 5px;
+            a {
+                color: $mainColor;
+                i {
+                    color: $mainColor;
+                    font-size: 35px;
+                }
+            }
+        }
+        // div:nth-child(2) {
+        //     border-left: 1px solid #ccc;
+        //     border-right: 1px solid #ccc;
+        // }
+    }
+
+    @include bg-img(url('../../assets/images/aboutbg.jpg')) ;
+    background-color: #e1e1e1a2;
+    padding-bottom: 50px;
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+        gap: 20px;
+        
+        .footer-box {
+            .logo {
+                width: 200px;
+            }
+            h3 {
+                color: $mainColor;
+                font-size: 23px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 15px;
+                width: 85%;
+                line-height: 1.9;
+            }
+            ul {
+                li {
+                    margin-bottom: 8px;
+                    a {
+                        color: black;
+                    }
+                }
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                input {
+                    height: 35px;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    margin-bottom: 15px;
+                    padding: 10px;
+                    font-family: tajawal;
+                }
+            }
+            .icons {
+                margin-top: 15px;
+                display: flex;
+                gap: 20px;
+                i {
+                    font-size: 23px;
+                    color: rgb(87, 87, 87);
+                    transition: 0.3s;
+                    &:hover {
+                        scale: 1.1;
+                    }
+                }
+            }
+        }
+    }
+}

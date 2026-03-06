@@ -8,7 +8,6 @@
 body {
   font-family: "cairo";
   background-color: #f5f1f1;
-  height: 5500px;
 }
 
 a {
@@ -69,6 +68,91 @@ img {
   .container {
     max-width: 1320px;
   }
+}
+
+footer .contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: white;
+  border-top: 3px solid #0360A3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  border-radius: 0 0 40px 40px;
+}
+footer .contact .inner-contact {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+footer .contact .inner-contact a {
+  color: #0360A3;
+}
+footer .contact .inner-contact a i {
+  color: #0360A3;
+  font-size: 35px;
+}
+footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/aboutbg.jpg");
+  background-position: center;
+  background-color: #0360A3;
+  background-color: rgba(225, 225, 225, 0.6352941176);
+  padding-bottom: 50px;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+footer .footer .footer-box .logo {
+  width: 200px;
+}
+footer .footer .footer-box h3 {
+  color: #0360A3;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+footer .footer .footer-box p {
+  font-size: 15px;
+  width: 85%;
+  line-height: 1.9;
+}
+footer .footer .footer-box ul li {
+  margin-bottom: 8px;
+}
+footer .footer .footer-box ul li a {
+  color: black;
+}
+footer .footer .footer-box form {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer .footer-box form input {
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-family: tajawal;
+}
+footer .footer .footer-box .icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+footer .footer .footer-box .icons i {
+  font-size: 23px;
+  color: rgb(87, 87, 87);
+  transition: 0.3s;
+}
+footer .footer .footer-box .icons i:hover {
+  scale: 1.1;
 }
 
 header {
