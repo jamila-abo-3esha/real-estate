@@ -9,6 +9,7 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
     <link rel="icon" href="assets/images/logo1.png" />
 </head>
 
@@ -315,16 +316,30 @@
         </div>
     </div>
 
-    <div class="partners">
-        <h2 class="section-title">شركاؤنا في أوس</h2>
-        <p class="section-desc">نبني جسور الثقة مع كبرى الشركات لتقديم خيارات عقارية استثنائية.</p>
-        <div class="container logos">
-            <div class="image"><img src="assets/images/emaar.png" alt="emaar logo"></div>
-            <div class="image"><img src="assets/images/damac.png" alt="logo"></div>
-            <div class="image"><img src="assets/images/Orascom.png" alt="logo"></div>
-            <div class="image"><img src="assets/images/arkan.png" alt="logo"></div>
+    <section class="gallary">
+        <h2 class="section-title">سجل إنجازاتنا العقارية</h2>
+        <p class="section-desc">نستعرض لكم مجموعة من المشاريع التي جسدنا فيها معايير الجودة والاتقان، لنبني معاً واقعاً يفوق التوقعات</p>
+        <div class="container all-images">
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar6.png"><img src="assets/images/aqars/aqar6.png" alt="aqar"></a>
+            </div>
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar5.png"><img src="assets/images/aqars/aqar5.png" alt="aqar"></a>
+            </div>
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar3.png"><img src="assets/images/aqars/aqar3.png" alt="aqar"></a>
+            </div>
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar4.png"><img src="assets/images/aqars/aqar4.png" alt="aqar"></a>
+            </div>
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar2.jpg"><img src="assets/images/aqars/aqar2.jpg" alt="aqar"></a>
+            </div>
+            <div class="image">
+                <a data-fancybox="gallery" href="assets/images/aqars/aqar1.png"><img src="assets/images/aqars/aqar1.png" alt="aqar"></a>
+            </div>
         </div>
-    </div>
+    </section>
 
     <section class="blog" id="blog">
         <h2 class="section-title">أحدث الأخبار العقارية</h2>
@@ -377,6 +392,17 @@
             </div>
         </div>
     </section>
+
+    <div class="partners">
+        <h2 class="section-title">شركاؤنا في أوس</h2>
+        <p class="section-desc">نبني جسور الثقة مع كبرى الشركات لتقديم خيارات عقارية استثنائية.</p>
+        <div class="container logos">
+            <div class="image"><img src="assets/images/emaar.png" alt="emaar logo"></div>
+            <div class="image"><img src="assets/images/damac.png" alt="logo"></div>
+            <div class="image"><img src="assets/images/Orascom.png" alt="logo"></div>
+            <div class="image"><img src="assets/images/arkan.png" alt="logo"></div>
+        </div>
+    </div>
 
     <footer>
 
@@ -446,6 +472,11 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+    Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+    });</script>
     <script src="assets/js/main.js"></script>
 </body>
 

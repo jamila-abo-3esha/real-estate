@@ -213,13 +213,40 @@
     }
 }
 
+.gallary {
+    padding-bottom: 70px;
+    p {
+        margin-bottom: 20px;
+    }
+    .all-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(350px , 1fr));
+        gap: 30px;
+        .image {
+            width: 100%;
+            height: 230px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px #b1b0b0;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.3s;
+                &:hover {
+                    scale: 1.04;
+                }
+            }
+        }
+    }
+}
 
 .partners {
     display: none;
     @include media-up(lg) {
         display: block;
     }
-    margin-bottom: 50px ;
+    padding-bottom: 80px ;
     .logos {
         margin-top: 30px;
         display: grid;

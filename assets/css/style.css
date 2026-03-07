@@ -682,6 +682,34 @@ aside .mobile-menu .cta {
   font-size: 15px;
 }
 
+.gallary {
+  padding-bottom: 70px;
+}
+.gallary p {
+  margin-bottom: 20px;
+}
+.gallary .all-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+.gallary .all-images .image {
+  width: 100%;
+  height: 230px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px #b1b0b0;
+}
+.gallary .all-images .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.gallary .all-images .image img:hover {
+  scale: 1.04;
+}
+
 .partners {
   display: none;
 }
@@ -691,7 +719,7 @@ aside .mobile-menu .cta {
   }
 }
 .partners {
-  margin-bottom: 50px;
+  padding-bottom: 80px;
 }
 .partners .logos {
   margin-top: 30px;
