@@ -42,11 +42,13 @@
                 h3 {
                     font-size: 19px;
                     margin-top: 5px;
+                    color: black;
                 }
                 .location {
                     font-size: 15px;
                     position: relative;
                     margin-right: 15px;
+                    color: black;
                     &::before {
                         position: absolute;
                         content: "\f3c5";

@@ -1,0 +1,23 @@
+.page-header {
+    padding: 70px 0;
+    background-color: #ccc;
+    @include bg-img(url('../../assets/images/aboutbg.jpg')) ;
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.page-content {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    .inner-content {
+        display: flex;
+        .right-section {
+            width: 70%;
+        }
+    }
+}
