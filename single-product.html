@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
     <link rel="icon" href="assets/images/logo1.png" />
@@ -125,7 +128,51 @@
                         </ul>
                     </div>
                 </div>
+                <h2>خصائص اضافية</h2>
+                <div class="extra-props">
+                    <div class="box">
+                        <i class="fa-solid fa-bed"></i>
+                        <h3>عدد الاسرة بالغرفة</h3>
+                        <p>4 سرير</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>أمان متقدم</h3>
+                        <p>كاميرا مراقبة ذكية</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <h3>عدد المسابح</h3>
+                        <p>2 مسبح</p>
+                    </div>
+                </div>
+                <h2>التوزيع المعماري</h2>
+                <div class="layout-slider">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/layout/1.png" alt="layout photo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/layout/2.png" alt="layout photo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/layout/3.png" alt="layout photo">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev arrow"></div>
+                        <div class="swiper-button-next arrow"></div>
+                    </div>
+                </div>
             </div>
+
+
             <div class="left-section"></div>
         </div>
     </div>
@@ -198,6 +245,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
     <script>
     Fancybox.bind("[data-fancybox]", {
