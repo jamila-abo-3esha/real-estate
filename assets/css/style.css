@@ -827,12 +827,21 @@ aside .mobile-menu .cta {
   margin-top: 70px;
   padding-bottom: 70px;
 }
-.page-content .inner-content {
-  display: flex;
-  gap: 20px;
+@media (min-width: 992px) {
+  .page-content .inner-content {
+    display: flex;
+    gap: 20px;
+  }
 }
 .page-content .inner-content .right-section {
-  width: 70%;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .page-content .inner-content .right-section {
+    width: 70%;
+  }
+}
+.page-content .inner-content .right-section {
   background-color: white;
   border-radius: 6px;
   padding: 20px;
@@ -859,10 +868,10 @@ aside .mobile-menu .cta {
 }
 .page-content .inner-content .right-section .props {
   margin-top: 20px;
-  display: flex;
   background-color: rgba(238, 238, 238, 0.6352941176);
   padding: 15px;
   border-radius: 6px;
+  display: flex;
 }
 .page-content .inner-content .right-section .props div:first-child {
   border-left: 6px solid white;
@@ -1022,7 +1031,16 @@ aside .mobile-menu .cta {
   outline: 1px solid #cdcdcd;
 }
 .page-content .inner-content .left-section {
-  width: 30%;
+  width: 100%;
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .page-content .inner-content .left-section {
+    width: 30%;
+    margin-top: 0;
+  }
+}
+.page-content .inner-content .left-section {
   background-color: white;
   border-radius: 6px;
   padding: 20px;
@@ -1091,6 +1109,14 @@ aside .mobile-menu .cta {
   margin-bottom: 8px;
   color: rgb(107, 107, 107);
   text-align: center;
+}
+@media (min-width: 992px) {
+  .page-content .inner-content .left-section .owner-info h3 {
+    font-size: 19px;
+  }
+  .page-content .inner-content .left-section .owner-info .owner-bio {
+    font-size: 15px;
+  }
 }
 .page-content .inner-content .left-section .owner-info .icons {
   display: flex;
