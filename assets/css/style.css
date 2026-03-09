@@ -866,12 +866,25 @@ aside .mobile-menu .cta {
   margin-bottom: 15px;
   font-size: 18px;
 }
+.page-content .inner-content .right-section .props-title {
+  display: none;
+}
+@media (min-width: 768px) {
+  .page-content .inner-content .right-section .props-title {
+    display: flex;
+  }
+}
 .page-content .inner-content .right-section .props {
   margin-top: 20px;
   background-color: rgba(238, 238, 238, 0.6352941176);
   padding: 15px;
   border-radius: 6px;
-  display: flex;
+  display: none;
+}
+@media (min-width: 768px) {
+  .page-content .inner-content .right-section .props {
+    display: flex;
+  }
 }
 .page-content .inner-content .right-section .props div:first-child {
   border-left: 6px solid white;

@@ -58,12 +58,23 @@
                 }
             }
 
+            .props-title {
+                display: none;
+                @include media-up(md) {
+                    display: flex;
+                }
+            }
+
             .props {
                 margin-top: 20px;
                 background-color: #eeeeeea2;
                 padding: 15px;
                 border-radius: 6px;
-                display: flex;
+                display: none;
+
+                @include media-up(md) {
+                    display: flex;
+                }
 
                 div:first-child {
                     border-left: 6px solid white;
