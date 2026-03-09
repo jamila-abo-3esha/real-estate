@@ -1021,5 +1021,124 @@ aside .mobile-menu .cta {
 .page-content .inner-content .right-section form textarea:focus {
   outline: 1px solid #cdcdcd;
 }
+.page-content .inner-content .left-section {
+  width: 30%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  height: fit-content;
+  padding-bottom: 30px;
+}
+.page-content .inner-content .left-section h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0360A3;
+}
+.page-content .inner-content .left-section form .search {
+  position: relative;
+}
+.page-content .inner-content .left-section form .search input {
+  background-color: white;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 15px;
+  width: 100%;
+  padding-right: 40px;
+}
+.page-content .inner-content .left-section form .search input:focus {
+  outline: 1px solid #cdcdcd;
+}
+.page-content .inner-content .left-section form .search i {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #CEAE4A;
+  margin-left: 10px;
+}
+.page-content .inner-content .left-section .owner-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+  border: 3px solid #eee;
+  padding: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.page-content .inner-content .left-section .owner-info .owner-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 18px;
+}
+.page-content .inner-content .left-section .owner-info .owner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.page-content .inner-content .left-section .owner-info h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+.page-content .inner-content .left-section .owner-info .owner-job {
+  margin-bottom: 8px;
+  color: rgb(107, 107, 107);
+}
+.page-content .inner-content .left-section .owner-info .owner-bio {
+  margin-bottom: 8px;
+  color: rgb(107, 107, 107);
+  text-align: center;
+}
+.page-content .inner-content .left-section .owner-info .icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+}
+.page-content .inner-content .left-section .owner-info .icons a i {
+  color: #CEAE4A;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.page-content .inner-content .left-section .owner-info .icons a i:hover {
+  scale: 1.3;
+}
+.page-content .inner-content .left-section .book-info form {
+  background-color: rgba(238, 238, 238, 0.6352941176);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+}
+.page-content .inner-content .left-section .book-info form .form-info div {
+  width: 100%;
+}
+.page-content .inner-content .left-section .book-info form .form-info div input {
+  background-color: white;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 15px;
+  width: 100%;
+  padding-right: 10px;
+}
+.page-content .inner-content .left-section .book-info form .form-info div input:focus {
+  outline: 1px solid #cdcdcd;
+}
+.page-content .inner-content .left-section .book-info form textarea {
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+}
+.page-content .inner-content .left-section .book-info form textarea:focus {
+  outline: 1px solid #cdcdcd;
+}
 
 /*# sourceMappingURL=style.css.map */
